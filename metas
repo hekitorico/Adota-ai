@@ -1,0 +1,60 @@
+Metas dos integrantes — Projeto Adota aí
+
+1. *Product Owner (PO)* (mari)
+
+* Definir e organizar as metas de cada Sprint.
+* Priorizar as funcionalidades do sistema.
+* Explicar aos desenvolvedores o que precisa ser feito e qual resultado é esperado.
+* Verificar se as entregas atendem aos requisitos do projeto.
+Atualizar as metas conforme o andamento do desenvolvimento.
+
+*Developer*(Laine e João)
+*1. Classe Animal*
+- Criar a classe abstrata `Animal` no arquivo `Animal.java`.
+- Atributos: `nome`, `especie`, `idade`, `codigoIdentificacao`, `ficha` e `carteiraVacinas`.
+- Criar o construtor para inicializar os dados básicos.
+- Criar getters e setters: `getNome()`, `setNome()`, `getEspecie()`, `setEspecie()`, `getIdade()`, `setIdade()`, `getCodigoIdentificacao()`, `setCodigoIdentificacao()`, `getFicha()` e `setFicha()`.
+- Criar o método `exibirFicha()` para mostrar os dados do animal.
+
+*2. Classe Cachorro*
+- Criar `Cachorro.java`, herdando de `Animal`.
+- Atributo próprio: `adestracao`.
+- Criar o construtor utilizando `super()`.
+- Criar `getAdestracao()`, `setAdestracao()`, `serAdotado()` e implementar `exibirFicha()`.
+
+*3. Classe Gato*
+- Criar `Gato.java`, herdando de `Animal`.
+- Atributo próprio: `temperamento`.
+- Criar o construtor utilizando `super()`.
+- Criar `getTemperamento()`, `setTemperamento()`, `serAdotado()` e implementar `exibirFicha()`.
+
+*4. Testes*
+- Testar a criação de objetos `Cachorro` e `Gato`.
+- Verificar os atributos, getters, setters e os métodos de exibição da ficha.
+
+*Observação:* a classe `Vacina` ainda não será implementada. O tipo do atributo `carteiraVacinas` será definido posteriormente. Vamos desenvolver essas etapas inicialmente e depois acrescentar novas metas ao projeto.
+
+*Designer* (Naju)
+
+* Planejar o visual do sistema.
+* Criar o layout da página inicial do Adota aí.
+* Definir cores, fontes, botões e organização dos elementos.
+* Garantir que a página seja simples, organizada e fácil de utilizar.
+* Apresentar o layout para o grupo antes da implementação.
+
+ *Revisor de código* (Heitor)
+
+* Revisar o código desenvolvido pelos programadores.
+* Verificar se os nomes das classes, atributos e métodos seguem o padrão definido pelo grupo.
+* Identificar erros, problemas de organização e possíveis melhorias.
+* Conferir se o código atende às metas da Sprint.
+* Sugerir correções e verificar se os problemas encontrados foram resolvidos.
+
+*Scrum Master* ( Vinícius )
+
+* Elaborar e atualizar o relatório de acompanhamento do projeto.
+* Acompanhar se as metas de cada Sprint foram alcançadas.
+* Identificar dificuldades que estejam atrapalhando o desenvolvimento.
+* Ajudar o grupo a buscar soluções para os problemas encontrados.
+* Organizar os alinhamentos da equipe e acompanhar o andamento das atividades.
+* Registrar o que foi concluído, o que ficou pendente e o que precisa melhorar.
