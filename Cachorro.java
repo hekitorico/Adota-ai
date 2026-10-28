@@ -5,7 +5,7 @@ public class Cachorro extends Animal {
 
     public Cachorro(String nome, String especie, int idade,
                     String codigoIdentificacao, String ficha,
-                    ArrayList<Vacina> carteiraVacinas,
+                    ArrayList<Object> carteiraVacinas,
                     boolean adestracao) {
         super(nome, especie, idade, codigoIdentificacao, ficha,
               carteiraVacinas);
