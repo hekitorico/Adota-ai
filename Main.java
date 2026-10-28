@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Cria uma lista vazia para armazenar as vacinas dos animais( ainda não implementamos).
-        ArrayList<Vacina> vacinas = new ArrayList<>();
+        ArrayList<Object> vacinas = new ArrayList<>();
 
         // Cria um objeto Cachorro, seus dados e estado de adestramento.
         Cachorro cachorro = new Cachorro(
