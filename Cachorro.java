@@ -9,7 +9,7 @@ public class Cachorro extends Animal {
 
     // Construtor que recebe os dados do cachorro e da classe Animal.
     public Cachorro(String nome, String especie, int idade,
-                    String codigoIdentificacao, String ficha,
+                    String codigoIdentificacao, 
                     ArrayList<Object> carteiraVacinas,
                     boolean adestracao) {
 
