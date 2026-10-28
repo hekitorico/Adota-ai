@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
-public class Cachorro extends Animal {
+public class Gato extends Animal {
      private String temperamento;
 
-    public Cachorro(String nome, String especie, int idade,
+    public Gato(String nome, String especie, int idade,
                     String codigoIdentificacao, String ficha,
-                    ArrayList<Vacina> carteiraVacinas,
-                    string temperamento) {
+                    ArrayList<Object> carteiraVacinas,
+                    String temperamento) {
         super(nome, especie, idade, codigoIdentificacao, ficha,
               carteiraVacinas);
          this.temperamento = temperamento;
