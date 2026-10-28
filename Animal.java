@@ -7,7 +7,6 @@ public abstract class Animal {
     private String especie;
     private int idade;
     private String codigoIdentificacao;
-    private String ficha;
 
     // Lista que armazena as vacinas do animal.
     // Object é utilizado temporariamente, pois a classe Vacina ainda não existe.
@@ -18,13 +17,12 @@ public abstract class Animal {
 
     // Construtor: inicializa os atributos do animal ao criar um objeto.
     public Animal(String nome, String especie, int idade,
-                  String codigoIdentificacao, String ficha,
+                  String codigoIdentificacao,
                   ArrayList<Object> carteiraVacinas) {
         this.nome = nome;
         this.especie = especie;
         this.idade = idade;
         this.codigoIdentificacao = codigoIdentificacao;
-        this.ficha = ficha;
         this.carteiraVacinas = carteiraVacinas;
 
         // Todo animal começa como não adotado.
@@ -71,16 +69,6 @@ public abstract class Animal {
         this.codigoIdentificacao = codigoIdentificacao;
     }
 
-    // Retorna a ficha descritiva do animal.
-    public String getFicha() {
-        return ficha;
-    }
-
-    // Altera a ficha descritiva do animal.
-    public void setFicha(String ficha) {
-        this.ficha = ficha;
-    }
-
     // Retorna a lista de vacinas do animal.
     public ArrayList<Object> getCarteiraVacinas() {
         return carteiraVacinas;
@@ -112,7 +100,6 @@ public abstract class Animal {
         System.out.println("Espécie: " + especie);
         System.out.println("Idade: " + idade);
         System.out.println("Código de identificação: " + codigoIdentificacao);
-        System.out.println("Ficha: " + ficha);
         System.out.println("Carteira de vacinas: " + carteiraVacinas);
 
         // Verifica se o animal foi adotado para exibir Sim ou Não.
