@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+
+public class Cachorro extends Animal {
+    private boolean adestracao;
+
+    public Cachorro(String nome, String especie, int idade,
+                    String codigoIdentificacao, String ficha,
+                    ArrayList<Vacina> carteiraVacinas,
+                    boolean adestracao) {
+        super(nome, especie, idade, codigoIdentificacao, ficha,
+              carteiraVacinas);
+        this.adestracao = adestracao;
+    }
+
+    public boolean getAdestracao() {
+        return adestracao;
+    }
+
+    public void setAdestracao(boolean adestracao) {
+        this.adestracao = adestracao;
+    }
+
+    @Override
+    public void exibirFicha() {
+        super.exibirFicha();
+        System.out.print("Adestrado: ");
+if (adestracao){
+System.out.println("Sim");
+}
+else{
+System.out.println("Não");
+}
+    }
+}
