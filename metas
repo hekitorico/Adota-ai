@@ -11,9 +11,9 @@ Atualizar as metas conforme o andamento do desenvolvimento.
 *Developer*(Laine e João)
 *1. Classe Animal*
 - Criar a classe abstrata `Animal` no arquivo `Animal.java`.
-- Atributos: `nome`, `especie`, `idade`, `codigoIdentificacao`, `ficha` e `carteiraVacinas`.
+- Atributos: `nome`, `especie`, `idade`, `codigoIdentificacao` e `carteiraVacinas`.
 - Criar o construtor para inicializar os dados básicos.
-- Criar getters e setters: `getNome()`, `setNome()`, `getEspecie()`, `setEspecie()`, `getIdade()`, `setIdade()`, `getCodigoIdentificacao()`, `setCodigoIdentificacao()`, `getFicha()` e `setFicha()`.
+- Criar getters e setters: `getNome()`, `setNome()`, `getEspecie()`, `setEspecie()`, `getIdade()`, `setIdade()`, `getCodigoIdentificacao()`, `setCodigoIdentificacao()`.
 - Criar o método `exibirFicha()` para mostrar os dados do animal.
 
 *2. Classe Cachorro*
@@ -34,6 +34,10 @@ Atualizar as metas conforme o andamento do desenvolvimento.
 
 *Observação:* a classe `Vacina` ainda não será implementada. O tipo do atributo `carteiraVacinas` será definido posteriormente. Vamos desenvolver essas etapas inicialmente e depois acrescentar novas metas ao projeto.
 
+**Comentário sobre o cumprimento das metas**
+
+As metas estabelecidas para esta etapa foram cumpridas, incluindo a criação e a estruturação inicial das classes em Java, a definição dos atributos e construtores e a realização dos testes de criação dos objetos.
+Com isso, foi estabelecida a base inicial do projeto Adota aí para dar continuidade ao desenvolvimento nas próximas etapas.
 *Designer* (Naju)
 
 * Planejar o visual do sistema.
