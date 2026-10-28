@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+
+public class Cachorro extends Animal {
+     private String temperamento;
+
+    public Cachorro(String nome, String especie, int idade,
+                    String codigoIdentificacao, String ficha,
+                    ArrayList<Vacina> carteiraVacinas,
+                    string temperamento) {
+        super(nome, especie, idade, codigoIdentificacao, ficha,
+              carteiraVacinas);
+         this.temperamento = temperamento;
+    }
+
+    public String getTemperamento() {
+        return temperamento;
+    }
+  
+ public void setTemperamento(String temperamento) {
+        this.temperamento = temperamento;
+    }
+  
+    @Override
+    public void exibirFicha() {
+        super.exibirFicha();
+        System.out.println("Temperamento: " + temperamento);
+    }
+}
