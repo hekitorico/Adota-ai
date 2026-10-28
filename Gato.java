@@ -9,7 +9,7 @@ public class Gato extends Animal {
 
     // Construtor que recebe os dados do gato e da classe Animal.
     public Gato(String nome, String especie, int idade,
-                    String codigoIdentificacao, String ficha,
+                    String codigoIdentificacao, 
                     ArrayList<Object> carteiraVacinas,
                     String temperamento) {
 
