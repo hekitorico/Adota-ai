@@ -14,7 +14,7 @@ public class Cachorro extends Animal {
                     boolean adestracao) {
 
         // Chama o construtor da classe Animal para inicializar os atributos herdados.
-        super(nome, especie, idade, codigoIdentificacao, ficha,
+        super(nome, especie, idade, codigoIdentificacao,
               carteiraVacinas);
 
         // Inicializa o atributo específico de adestramento.
