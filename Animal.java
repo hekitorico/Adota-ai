@@ -6,12 +6,12 @@ public abstract class Animal {
     private int idade;
     private String codigoIdentificacao;
     private String ficha;
-    private ArrayList<Vacina> carteiraVacinas;
+    private ArrayList<Object> carteiraVacinas;
     private boolean adotado;
 
     public Animal(String nome, String especie, int idade,
                   String codigoIdentificacao, String ficha,
-                  ArrayList<Vacina> carteiraVacinas) {
+                  ArrayList<Object> carteiraVacinas) {
         this.nome = nome;
         this.especie = especie;
         this.idade = idade;
@@ -61,11 +61,11 @@ public abstract class Animal {
         this.ficha = ficha;
     }
 
-    public ArrayList<Vacina> getCarteiraVacinas() {
+    public ArrayList<Object> getCarteiraVacinas() {
         return carteiraVacinas;
     }
 
-    public void setCarteiraVacinas(ArrayList<Vacina> carteiraVacinas) {
+    public void setCarteiraVacinas(ArrayList<Object> carteiraVacinas) {
         this.carteiraVacinas = carteiraVacinas;
     }
 
