@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 // Classe abstrata que representa um animal genérico.
 public abstract class Animal {
 
@@ -111,3 +112,4 @@ public abstract class Animal {
         }
     }
 }
+
