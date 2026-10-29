@@ -9,12 +9,12 @@ public class Gato extends Animal {
 
     // Construtor que recebe os dados do gato e da classe Animal.
     public Gato(String nome, String especie, int idade,
-                    String codigoIdentificacao, String ficha,
+                    String codigoIdentificacao, 
                     ArrayList<Object> carteiraVacinas,
                     String temperamento) {
 
         // Chama o construtor da classe Animal para inicializar os atributos herdados.
-        super(nome, especie, idade, codigoIdentificacao, ficha,
+        super(nome, especie, idade, codigoIdentificacao,
               carteiraVacinas);
 
         // Inicializa o atributo específico do gato.
